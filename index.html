@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="vh-100 bg-dark">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container d-flex justify-content-center align-items-center h-100">
+    
+
+    
+    <div class="col-md-9 col-lg-6 bg-white m-auto rounded">
+
+        <div class="mb-4 d-flex">
+
+            <h1 class="m-auto mt-5">Registrera användare</h1>
+
+        </div>
+        
+        <form class="form-row g-3" id="userForm">
+            
+            <div class="field-input">
+              <label for="validationDefault01" class="form-label">Förnamn:</label>
+              <input type="text" class="form-control" id="firstName" placeholder="förnamn" >
+              <span class="error-text"></span>    <!--  error message -->
+            </div>
+           
+            <div class="field-input ">
+              <label for="validationDefault02" class="form-label">Efternam:</label>
+              <input type="text" class="form-control" id="lastName" placeholder="efternamn" >
+              <span class="error-text"></span>
+            </div>
+            
+            <div class="field-input">
+                <label for="validationDefault03" class="form-label">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="email@adress.com" >
+                <span class="error-text"></span>
+            </div>
+            
+            <div class="col-sm-12 btns ">
+              <button id="addUser" class="btn btn-dark w-40 mt-3 mb-3 rounded" type="submit" >Skapa användare</button>
+              <button id="clearForm" class="btn btn-dark w-40 mt-3 mb-3 rounded" onclick="clear()">Återställ</button>
+            </div>
+          </form>
+
+          <div class="px-3" id="users">
+
+            
+              <span id="fullnameOutput"></span>
+              <span></span>
+            
+            
+            <!-- <div id="${user.id}" class="border p-3 d-flex justify-content-between mb-2"> <span id="fullnameOutput"> Jesper Zackrisson </span> <span id="emailOutput"> jesper.zackrisson@hotmail.com </span> </div> -->
+            
+            
+
+        </div>
+
+        
+        
+    </div>
+
+    
+    
+    
+
+    
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

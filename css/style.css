@@ -1,0 +1,51 @@
+.field-input.success input {
+    border-color: green;
+    border-width: 0.2rem;
+    visibility: visible;
+}
+
+.field-input.error input {
+    border-color: red;
+    border-width: 0.2rem;
+}
+
+.field-input {
+    width: 20rem;
+    margin: auto;  
+}
+
+.error-text {
+    color: red; 
+}
+
+/* #emailOutput {
+    font-size: 0.8rem;
+} */
+
+/* #users span {
+    font-size: 0.7rem;
+} */
+
+.btns {
+    margin-left: 8rem;
+}
+
+
+
+/* TEST TEST TEST */
+
+/* #users span {
+    font-size: 0.8rem;
+    position: absolute;
+    margin-top: 1.2rem; 
+} */
+
+/* .output {
+    
+    margin-right: 5rem;
+} */
+
+
+#users span#emailOutput {
+    font-size: 0.8rem;
+}
